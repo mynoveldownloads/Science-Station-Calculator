@@ -41,7 +41,7 @@ red_rate = red_eqn / 200
 yellow_rate = yellow_eqn / 70
 blue_rate = blue_eqn / 200
 pink_rate = pink_eqn / 200
-daily_earnings = green_rate + red_rate + yellow_rate + blue_rate + pink_rate
+daily_earnings = 2 * (green_rate + red_rate + yellow_rate + blue_rate + pink_rate) # Harvest time for 1 station is roughly 9 hours, can be harvested twice a day
 
 print(str(x) + " science stations drop approximately " + str(round(green_eqn, )) + " Chemical G (" + str(round(green_rate, )) + "WLS), " + str(round(red_eqn, )) + " Chemical R (" + str(round(red_rate, )) + "WLS), " + str(round(yellow_eqn, )) + " Chemical Y (" + str(round(yellow_rate, )) + "WLS), " + str(round(blue_eqn, )) + " Chemical B (" + str(round(blue_rate, )) + "WLS) and " + str(round(pink_eqn, )) + " Chemical P (" + str(round(pink_rate, )) + "WLS), " + str(round(total_drops, )) + " drops in total with a daily earning of " + str(round(daily_earnings)) + "WLS per harvest (1 day)" )
 
