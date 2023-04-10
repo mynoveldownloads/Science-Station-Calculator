@@ -61,7 +61,7 @@ unplaced_price_dls = unplaced_price / 100 # Converted to DLS
 return_wls_p = placed_price / daily_earnings # Number of days to earn WLS back buying placed science stations
 return_wls_un = unplaced_price / daily_earnings # Number of days to earn WLS back buying unplaced science stations
 
-print("It will take me about " + str(round(return_wls_p, )) + " days to earn back the number WLS in which I paid " + str(round(placed_price, )) + "WLS or "+ str(round(placed_price_dls, 2)) + "DLS for " + str(x) + " placed science stations at rate of " + str(placed_rate) + "/WL" + " whereas it will take me about " + str(round(return_wls_un, )) + " days to earn back the number WLS in which I paid " + str(round(unplaced_price, )) + "WLS or " + str(round(unplaced_price_dls, 2)) + "DLS for " + str(x) + " placed science stations at rate of " + str(unplaced_rate) + "/WL")
+print("It will take me about " + str(round(return_wls_p, )) + " days to earn back the number WLS in which I paid " + str(round(placed_price, )) + "WLS or "+ str(round(placed_price_dls, 2)) + "DLS for " + str(x) + " placed science stations at rate of " + str(placed_rate) + "/WL" + " whereas it will take me about " + str(round(return_wls_un, )) + " days to earn back the number WLS in which I paid " + str(round(unplaced_price, )) + "WLS or " + str(round(unplaced_price_dls, 2)) + "DLS for " + str(x) + " unplaced science stations at rate of " + str(unplaced_rate) + "/WL")
 
 print(" ")
 
